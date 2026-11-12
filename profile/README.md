@@ -1,8 +1,17 @@
-# byceebee
+<a href="https://ceebee.biz.id">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ceebee.biz.id/brand/byceebee/byceebee-stacked-inverse.svg">
+    <img alt="byceebee home" src="https://ceebee.biz.id/brand/byceebee/byceebee-stacked.svg" width="240">
+  </picture>
+</a>
 
-[![byceebee. Tools for building software.](assets/byceebee.png)](https://github.com/byceebee/skills)
+## Who we are
 
-We build tools for developers and coding agents who work on real applications.
+**Small ideas. Useful products.**
+
+byceebee is an indie studio. We make products for collecting, getting around, and everyday life. This GitHub is where we share tools we build along the way.
+
+[Explore the studio catalog](https://ceebee.biz.id)
 
 ## Layout Witness
 
@@ -14,7 +23,7 @@ Keep layout guides visible while your dev server is running. Check alignment, sp
 npx skills add byceebee/skills --skill ceebee-layout-witness
 ```
 
-[Setup and examples](https://github.com/byceebee/skills#readme) · [Browse the skill collection](https://github.com/byceebee/skills/tree/main/skills)
+[Open Layout Witness setup and examples](https://github.com/byceebee/skills#readme)
 
 <details>
 <summary>What the demo checks</summary>
