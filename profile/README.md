@@ -20,7 +20,7 @@ Keep layout guides visible while your dev server is running. Check alignment, sp
 ![Layout Witness live demo showing a sidebar pass at 240 pixels, fail at 260 pixels, then pass again after the correction.](assets/layout-witness.gif)
 
 ```sh
-npx skills add byceebee/skills --skill ceebee-layout-witness
+npx skills add byceebee/skills --skill layout-witness
 ```
 
 [Open Layout Witness setup and examples](https://github.com/byceebee/skills#readme)
