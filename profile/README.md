@@ -13,21 +13,19 @@ byceebee is an indie studio. We make products for collecting, getting around, an
 
 [Explore the studio catalog](https://ceebee.biz.id)
 
-## Layout Witness
+## Layout Cue
 
-Keep layout guides visible while your dev server is running. Check alignment, spacing, and component geometry against rules you define. Give your coding agent the overlay and a JSON report so it can make a specific correction and check it again.
-
-![Layout Witness live demo showing a sidebar pass at 240 pixels, fail at 260 pixels, then pass again after the correction.](assets/layout-witness.gif)
+Layout Cue is a Chrome extension and agent skill for inspecting a running web app. Keep the grid on while you edit, pin a ruler between elements, and save checks that apply when the right page or UI state is open.
 
 ```sh
-npx skills add byceebee/skills --skill layout-witness
+npx skills add byceebee/skills --skill layout-cue
 ```
 
-[Open Layout Witness setup and examples](https://github.com/byceebee/skills#readme)
+Try the included workspace demo. Replay the same edit dialog before and after a CSS correction and compare its ruler, clean screenshot, and check results.
 
-<details>
-<summary>What the demo checks</summary>
+| Check at 360 CSS px | Before | After |
+| --- | ---: | ---: |
+| Save button clipping | 40 px | 0 px |
+| Gap between Cancel and Save | 8 px | 8 px |
 
-The page asks for a 240 px sidebar. A CSS edit pushes it to 260 px, and Layout Witness marks the edge and reports the measured width. Correcting the CSS clears the finding in the same watch session.
-
-</details>
+[Set up Layout Cue](https://github.com/byceebee/skills#inspect-an-existing-browser-tab) · [Run the demo](https://github.com/byceebee/skills#try-a-layout-regression)
